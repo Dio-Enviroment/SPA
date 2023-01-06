@@ -2,11 +2,71 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta httsp-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Stan Lee</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    test
+    <video id="background" autoplay muted loop playsinline>
+        <source src="video/intro.mp4" type="video/mp4" />
+    </video>
+    <div class="nav-container">
+        <nav>
+            <div id="logo"><img src="img/logo_center.png"></div>
+            <ul>
+                <li><input id="hom" type="button" value="Home"/></li>
+                <li><input id="his" type="button" value="Bibliografía"/></li>
+                <li><input id="gas" type="button" value="Trabajos"/></li>
+            </ul>
+        </nav>
+    </div>
+    <aside id="asi" class="animation-run">
+        <div id="p1">
+            <div class="home-container">
+                <img src="img/home.png">
+            </div>
+        </div>
+        <div id="p2">
+            <div id="historia-container">
+                <div id="historia-imgs">
+                    <div><img src="img/historia_1.jpg"></div>
+                    <div><img src="img/historia_2.jpg"></div>
+                </div>
+                <div id="historia-texto">
+                    <p>Stanley Martin Lieber (Manhattan, Nueva York; 28 de diciembre de 1922-Los Ángeles, California; 12 de noviembre de 2018),​ más conocido como Stan Lee, fue un escritor y editor de cómics estadounidense, además de productor y actor ocasional de cine.</p>
+                    <p>Es principalmente conocido por haber cocreado personajes icónicos del mundo del cómic tales como Spider-Man, X-Men, Los 4 Fantásticos, Hulk, Iron Man, Thor, Daredevil, Doctor Strange, Black Panther, Ant-Man y Bruja Escarlata, entre otros muchos superhéroes, casi siempre acompañado de los dibujantes y escritores Steve Ditko y Jack Kirby. El trabajo de Stan Lee fue fundamental para expandir Marvel Comics, llevándola de una pequeña casa publicitaria a una gran corporación multimedia. Todavía hoy, los cómics de Marvel se distinguen por indicar siempre «Stan Lee presenta» en los rótulos de presentación. También tuvo un programa televisivo en History Channel en donde buscaba superhumanos «reales».</p>
+                    <p>Stan Lee recibió una gran cantidad de premios por su trabajo, incluyendo el haber sido formalmente introducido en el Jack Kirby Hall of Fame en 1995. Además, el 4 de enero de 2011 Stan Lee descubrió una estrella con su nombre en el paseo de la fama de Hollywood.</p>
+                </div>
+            </div>
+            
+        </div>
+        <div id="p3">
+            <div id="gastronomia-container">
+                <table class="gastronomia-table">
+                    <tr>
+                        <td><img src="img/trabajos1.jpg"><div>Spiderman</div></td>
+                        <td><img src="img/trabajos2.jpg"><div>Fantastic Four</div></td>
+                        <td><img src="img/trabajos3.jpg"><div>X-Men</div></td>
+                    </tr>
+                    <tr>
+                        <td><img src="img/trabajos4.jpg"><div>Daredevil</div></td>
+                        <td><img src="img/trabajos5.jpg"><div>Hulk</div></td>
+                        <td><img src="img/trabajos6.jpg"><div>Chamber of Darkness</div></td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+        <div id="p4">
+        </div>
+    </aside>
+   <footer>
+    <div id="footer-container">
+        <a class="icon-facebook2" href="https://es-la.facebook.com/therealstanlee"></a>
+        <a class="icon-twitter" href="https://twitter.com/TheRealStanLee"></a>
+        <a class="icon-youtube" href="https://www.youtube.com/@stanleemyspace"></a>
+    </div>
+</footer>
+<script src="script.js"></script>
 </body>
 </html>
